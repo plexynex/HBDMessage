@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@100;300;400;500;700;900&display=swap');
 
 * {
@@ -21,7 +20,7 @@ section {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background:url(assets/72969fd2668e33d52f215a3573b485a0.jpg) no-repeat;
+    background:url(assets/wallpaper.jpg) no-repeat;
     background-size: cover;
 background-position: center;
 }
