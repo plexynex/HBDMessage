@@ -34,7 +34,7 @@ function btnclick() {
       a.style.border = "none";
       a.style.backdropFilter = "blur(2px)";
       animasi.style.display="block"
-    }, 100);
+    }, 8500);
   } else if (username == 0) {
     text.textContent = "🙁please input password🙁";
   } else {
