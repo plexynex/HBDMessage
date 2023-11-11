@@ -48,10 +48,12 @@ function triggerBtn() {
   if (animasi.paused) {
     animasi.play();
     audio.pause()
+    alert("Jangan di pause yaa!! ntar ilang wkwk😅") 
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
     audio.play();
+    animasi.style.display="none"
     btnAnimate.textContent="PLAY"
   }
 }
