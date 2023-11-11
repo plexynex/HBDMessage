@@ -1,5 +1,9 @@
+let animasi = document.getElementById("animasi");
+var audio = document.getElementById("audio");
+
+animasi.style.display="none"
+
 function btnclick() {
-  var audio = document.getElementById("audio");
   var username = document.getElementById("username").value;
   let btn = document.getElementById("btn");
   let label = document.getElementById("label");
@@ -9,7 +13,7 @@ function btnclick() {
   let text = document.getElementById("text");
 
   const pass = "123";
-
+  
   if (username == pass) {
     audio.play();
     text.textContent = "✅password benar✅";
@@ -29,10 +33,25 @@ function btnclick() {
       a.style.height = "100vh";
       a.style.border = "none";
       a.style.backdropFilter = "blur(2px)";
-    }, 8500);
+      animasi.style.display="block"
+    }, 100);
   } else if (username == 0) {
     text.textContent = "🙁please input password🙁";
   } else {
     text.textContent = "🚫password salah🚫";
+  }
+}
+
+let btnAnimate = document.getElementById("btnAnimate");
+
+function triggerBtn() {
+  if (animasi.paused) {
+    animasi.play();
+    audio.pause()
+    btnAnimate.textContent="Semoga suka yah :)"
+  } else {
+    animasi.pause();
+    audio.play();
+    btnAnimate.textContent="PLAY"
   }
 }

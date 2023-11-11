@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Pixelify+Sans:wght@500&family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,35 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
+}
+
+#animasi {
+    width: 15rem;
+    top: 5em;
+    border-radius: 25px;
+    box-shadow: 0 0 5px pink,
+        0 0 10px pink,
+        0 0 100px pink;
+    position: absolute;
+}
+
+#btnAnimate {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 0 0 10px aqua,
+    0 0 50px aqua,
+    0 0 100px aqua;
+    bottom: 0;
+    background-color:transparent;
+    cursor: move;
+    height: 2rem;
+    width: 100%;
+
 }
 
 section {
@@ -46,17 +76,21 @@ section {
     animation: animate 4s linear infinite;
 }
 
-h2::selection,h1::selection,input::selection,label::selection,button::selection{
+h2::selection, h1::selection, input::selection, label::selection, button::selection {
     background-color: #f002f4;
     color: #FFF;
 }
 
 @keyframes animate {
-0%,100%{scale: .9;}
-50%{scale: 1;
-text-shadow: 0 0 5px #222,
-0 0 50px aqua;
-}
+    0%, 100% {
+        scale: .9;
+    }
+
+    50% {
+        scale: 1;
+        text-shadow: 0 0 5px #222,
+            0 0 50px aqua;
+    }
 }
 
 #text {
@@ -124,11 +158,11 @@ button {
 button:hover {
     background-color: aqua;
     transform: scale(1.2);
-    box-shadow: 0 0  5px aqua,
-    0 0  10px aqua,
-    0 0  50px aqua,
-    0 0  100px aqua,
-    0 0  200px aqua;
+    box-shadow: 0 0 5px aqua,
+        0 0 10px aqua,
+        0 0 50px aqua,
+        0 0 100px aqua,
+        0 0 200px aqua;
     transition: all .3s ease-in-out;
 }
 
