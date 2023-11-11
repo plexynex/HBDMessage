@@ -23,7 +23,7 @@ function btnclick() {
       text2.textContent =
         "Hai" + " " + "(nama)" + "..." + " " + "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "isi pesan + pw bisa reques ama yg ngirim link";
+      text.textContent = "isi pesan + password = custom";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
