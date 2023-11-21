@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    user-select: none;
+    user-zoom: fixed;
 }
 
 #video {
@@ -50,6 +50,7 @@ section {
     width: 100%;
     height: 100vh;
     background: url(assets/wallpaper.jpg) no-repeat;
+    user-select: none;
     background-size: cover;
     background-position: center;
 }
