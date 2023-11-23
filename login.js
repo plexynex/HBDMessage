@@ -21,9 +21,9 @@ function btnclick() {
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent =
-        "Hai" + " " + "Pendi" + "..." + " " + "Happy Birthday🥳";
+        "Hai" + " " + "selsa" + "..." + " " + "i love you😊";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "kontol";
+      text.textContent = "bauk";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
