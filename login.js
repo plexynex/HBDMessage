@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "123";
+  const pass = "171101";
   
   if (username == pass) {
     audio.play();
@@ -21,9 +21,9 @@ function btnclick() {
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent =
-        "Hai" + " " + "(nama)" + "..." + " " + "Happy Birthday🥳";
+        "Hai" + " " + "Pendi" + "..." + " " + "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "isi pesan + password = custom";
+      text.textContent = "kontol";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
