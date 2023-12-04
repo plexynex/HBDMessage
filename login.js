@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "171101";
+  const pass = "0412";
   
   if (username == pass) {
     audio.play();
@@ -21,9 +21,9 @@ function btnclick() {
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent =
-        "Hai" + " " + "selsa" + "..." + " " + "i love you😊";
+        "Hai" + " " + "kak cii" + "..." + " " + "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "bauk";
+      text.textContent = "wish you all the best";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
