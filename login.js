@@ -49,7 +49,7 @@ function triggerBtn() {
     animasi.play();
     audio.pause()
     //alert("Jangan di pause yaa!! ntar ilang wkwk😅")
-    alert("Jn di pause yo ela ilang beko wkwk")
+    alert("Jn di pause ndk la ilang beko wkwk")
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
