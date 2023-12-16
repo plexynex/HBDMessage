@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "0412";
+  const pass = "1612";
   
   if (username == pass) {
     audio.play();
@@ -21,7 +21,7 @@ function btnclick() {
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent =
-        "Hai" + " " + "kak cii" + "..." + " " + "Happy Birthday🥳";
+        "Hai" + " " + "elaa" + "..." + " " + "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
       text.textContent = "wish you all the best";
       btn.style.display = "none";
@@ -48,7 +48,8 @@ function triggerBtn() {
   if (animasi.paused) {
     animasi.play();
     audio.pause()
-    alert("Jangan di pause yaa!! ntar ilang wkwk😅") 
+    //alert("Jangan di pause yaa!! ntar ilang wkwk😅")
+    alert("Jn di pause yo ela ilang beko wkwk")
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
