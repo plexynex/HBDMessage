@@ -21,7 +21,7 @@ function btnclick() {
     setTimeout(function () {
       text.style.fontSize = "12px";
       //text2.textContent ="Hai" + " " + "elaa" + "..." + " " + "Happy Birthday🥳";
-      text2.textContent = "Happy Birthday" + "Devi Hartania🥳" + "..."
+      text2.textContent = "Happy Birthday" + " " + "Devi Hartania🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
       text.textContent = "wish you all the best";
       btn.style.display = "none";
