@@ -23,7 +23,7 @@ function btnclick() {
       //text2.textContent ="Hai" + " " + "elaa" + "..." + " " + "Happy Birthday🥳";
       text2.textContent = "Happy Birthday" + " " + "Devi Hartania🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "wish you all the best";
+      text.textContent = "tambah tuo +1" </br> "wish you all the best";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
