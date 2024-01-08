@@ -23,7 +23,6 @@ function btnclick() {
       text2.textContent ="Hai" + " " + "nama" + "..." + " " + "Happy Birthday🥳";
       // text2.textContent = "Happy Birthday" + " " + "nama🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      document.writeln("</br>")
       text.textContent = "Pesan text";
       btn.style.display = "none";
       label.style.display = "none";
