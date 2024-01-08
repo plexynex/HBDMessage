@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "2012";
+  const pass = "888";
   
   if (username == pass) {
     audio.play();
@@ -20,10 +20,11 @@ function btnclick() {
     btn.textContent = "Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
-      //text2.textContent ="Hai" + " " + "elaa" + "..." + " " + "Happy Birthday🥳";
-      text2.textContent = "Happy Birthday" + " " + "Devi Hartania🥳";
+      text2.textContent ="Hai" + " " + "nama" + "..." + " " + "Happy Birthday🥳";
+      // text2.textContent = "Happy Birthday" + " " + "nama🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "tambah tuo +1 tan, wish you all the best🎊🎁🎉";
+      document.writeln("</br>")
+      text.textContent = "Pesan text";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
@@ -48,8 +49,7 @@ function triggerBtn() {
   if (animasi.paused) {
     animasi.play();
     audio.pause()
-    //alert("Jangan di pause yaa!! ntar ilang wkwk😅")
-    alert("ni hadiah dari bg wkwk")
+    alert("Jangan di pause yaa!! ntar ilang wkwk😅")
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
