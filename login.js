@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "2504";
+  const pass = "888";
   
   if (username == pass) {
     audio.play();
@@ -20,10 +20,10 @@ function btnclick() {
     btn.textContent = "Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
-      //text2.textContent ="Hai" + " " + "nama" + "..." + " " + "Happy Birthday🥳";
-      text2.textContent = "Happy Birthday🥳";
+      text2.textContent ="Hai" + " " + "nama" + "..." + " " + "Happy Birthday🥳";
+      //text2.textContent = "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "di ateh ado hadiah lagu hapi birday untuak kwn ciek😹";
+      text.textContent = "pesan text";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
