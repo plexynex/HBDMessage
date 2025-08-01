@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "1234";
+  const pass = "4444";
   
   if (username == pass) {
     audio.play();
@@ -49,7 +49,8 @@ function triggerBtn() {
   if (animasi.paused) {
     animasi.play();
     audio.pause()
-    alert("parah bet ga mau ngasih tauu, pdhal niatnya pen kasi surprise kedepannya huhu😭😭")
+    //alert("parah bet ga mau ngasih tauu, pdhal niatnya pen kasi surprise kedepannya huhu😭😭")
+    alert("Jangan di pause yaa!! ntar ilang wkwk😅") 
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
@@ -58,6 +59,7 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
 
