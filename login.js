@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "1234";
+  const pass = "5734";
   
   if (username == pass) {
     audio.play();
@@ -58,6 +58,7 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
 
