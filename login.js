@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "5734";
+  const pass = "1234";
   
   if (username == pass) {
     audio.play();
@@ -39,7 +39,7 @@ function btnclick() {
     text.textContent = "🙁please input password🙁";
   } else {
     text.textContent = "🚫password salah🚫";
-    alert("paswordnya bulan ama tnggal kmu. kalo gabisa ksi tau dulu🗿");
+   // alert("paswordnya bulan ama tnggal kmu. kalo gabisa ksi tau dulu🗿");
   }
 }
 
@@ -49,7 +49,7 @@ function triggerBtn() {
   if (animasi.paused) {
     animasi.play();
     audio.pause()
-    alert("Jangan di pause yaa!! ntar ilang wkwk😅")
+    alert("parah bet ga mau ngasih tauu, pdhal niatnya pen kasi surprise kedepannya huhu😭😭")
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
@@ -58,6 +58,7 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
 
