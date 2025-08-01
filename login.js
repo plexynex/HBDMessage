@@ -38,7 +38,8 @@ function btnclick() {
   } else if (username == 0) {
     text.textContent = "🙁please input password🙁";
   } else {
-    text.textContent = "🚫paswordnya bulan ama tnggal kmu. kalo gabisa ksi tau dulu🗿🚫";
+    text.textContent = "🚫password salah🚫";
+    btn.textContent = "paswordnya bulan ama tnggal kmu. kalo gabisa ksi tau dulu🗿";
   }
 }
 
@@ -57,5 +58,6 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
