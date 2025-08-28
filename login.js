@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "4444";
+  const pass = "2808";
   
   if (username == pass) {
     audio.play();
@@ -20,7 +20,7 @@ function btnclick() {
     btn.textContent = "Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
-      text2.textContent ="Hai" + " " + "Zaraa" + "..." + " " + "Happy Birthday🥳";
+      text2.textContent ="Aloo" + " " + "Avifa" + "..." + " " + "Happy Birthday🥳";
       //text2.textContent = "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
       text.textContent = "I hope today is the best for you. nih kado online hihi";
@@ -59,6 +59,7 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
 
