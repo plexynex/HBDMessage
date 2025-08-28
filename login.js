@@ -23,7 +23,8 @@ function btnclick() {
       text2.textContent ="Aloo" + " " + "Avifa" + "..." + " " + "Happy Birthday🥳";
       //text2.textContent = "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "I hope today is the best for you. nih kado online hihi, klik kado yg atas.";
+      text.textContent = "I hope today is the best for you. nih kado online hehe";
+      text.textContent = "klik kado yg atas yaa!"
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
@@ -59,6 +60,7 @@ function triggerBtn() {
     btnAnimate.textContent="PLAY"
   }
 }
+
 
 
 
