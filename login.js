@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "1804";
+  const pass = "0000";
   
   if (username == pass) {
     audio.play();
