@@ -12,7 +12,7 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "0000";
+  const pass = "0522";
   
   if (username == pass) {
     audio.play();
@@ -20,7 +20,7 @@ function btnclick() {
     btn.textContent = "Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
-      text2.textContent ="Aloo" + " " + "Haruuu" + "..." + " " + "Happy Birthday🥳";
+      text2.textContent ="Aloo" + " " + "ollaaa" + "..." + " " + "Happy Birthday🥳";
       //text2.textContent = "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
       text.textContent = "I hope today is the best for you. nih kado online hehe";
@@ -39,7 +39,7 @@ function btnclick() {
     text.textContent = "🙁please input password🙁";
   } else {
     text.textContent = "🚫password salah🚫";
-   // alert("paswordnya bulan ama tnggal kmu. kalo gabisa ksi tau dulu🗿");
+   alert("paswordnya bulan ama tnggal kmu 4 karakter. kalo masi gabisa kasi tau dulu🗿");
   }
 }
 
