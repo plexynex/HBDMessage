@@ -18,12 +18,14 @@ function btnclick() {
     audio.play();
     text.textContent = "✅password benar✅";
     btn.textContent = "Tunggu bentar..";
+    // btn.textContent = "Spesial surprise ni dari Geng Topi Ijo,, Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent ="Aloo" + " " + "mengg" + "..." + " " + "Happy Birthday🥳";
       //text2.textContent = "Happy Birthday🥳";
       text.style.fontFamily = "'Poppins', sans-serif";
-      text.textContent = "I hope today is the best for you. nih kado online hehe";
+      // text.textContent = "I hope today is the best for you. nih kado online hehe";
+      text.textContent = "🎉 Happy Birthday Meng! Semoga panjang umur, sehat selalu, rezekinya makin lancar, dan semua yang lagi diusahain tahun ini bisa tercapai. Makasih udah jadi bagian dari Geng Topi Ijo dan udah nemenin banyak momen seru. Semoga makin sukses, makin bahagia, dan tetap jadi orang yang asik diajak ngobrol maupun mabar.🥳🎂💚🍀 ";
       btn.style.display = "none";
       label.style.display = "none";
       box.style.display = "none";
