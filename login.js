@@ -53,6 +53,7 @@ function triggerBtn() {
     audio.pause()
     //alert("parah bet ga mau ngasih tauu, pdhal niatnya pen kasi surprise kedepannya huhu😭😭")
     alert("Jangan di pause yaa!! ntar ilang wkwk😅") 
+    alert("oiyaa, satu lagi karna ucapan ini surprise jangan sampe ada yang tau yaa isinyaa. biar bisa di pake lagi buat surprise member lain hehe :b") 
     btnAnimate.textContent="Semoga suka yah :)"
   } else {
     animasi.pause();
