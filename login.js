@@ -12,13 +12,12 @@ function btnclick() {
   let a = document.getElementById("a");
   let text = document.getElementById("text");
 
-  const pass = "1606";
+  const pass = "8697";
   
   if (username == pass) {
     audio.play();
     text.textContent = "✅password benar✅";
     btn.textContent = "Tunggu bentar..";
-    // btn.textContent = "Spesial surprise ni dari Geng Topi Ijo,, Tunggu bentar..";
     setTimeout(function () {
       text.style.fontSize = "12px";
       text2.textContent ="Aloo" + " " + "honeyyy" + "..." + " " + "Happy Birthday🥳";
